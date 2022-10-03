@@ -11,10 +11,4 @@ class Human < Animal
       self.name = name
       self.age = age
   end
-
-  def say
-    str = "#{name}です。#{age}歳です。"
-    puts str
-  end
-
 end
